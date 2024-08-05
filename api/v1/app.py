@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ Script that imports a Blueprint and runs Flask """
-from flask import Flask
+from flask import Flask, make_response, jsonify
 from models import storage
 from api.v1.views import app_views
 from os import getenv
